@@ -2,7 +2,8 @@
 /home/cir/Escritorio/cir/apuntes/devnet/mvc
 modificado por Cirino Silva Tovar el 9 sep 2022
 para que acepte el nombre y lo guarde
-""""
+"""
+### Modulo principal
 
 import tkinter as tk
 from Model import Model
@@ -27,4 +28,5 @@ class App(tk.Tk):
 if __name__ == '__main__':
     app = App()
     app.mainloop()
+    
     
